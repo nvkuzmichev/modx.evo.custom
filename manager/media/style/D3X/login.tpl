@@ -189,7 +189,7 @@
                         onComplete:ajaxReturn
                     }
                 ).request();
-                $$('input').setProperty('readonly', 'readonly');
+                $('input').setProperty('readonly', 'readonly');
             });  
 			
 			// Initial focus
@@ -209,7 +209,7 @@
                 if (cimg) {
                 	cimg.src = 'includes/veriword.php?rand=' + Math.random();
                 }
-                $$('input').removeProperty('readonly');
+                $('input').removeProperty('readonly');
                 alert(response);
             }
         }
