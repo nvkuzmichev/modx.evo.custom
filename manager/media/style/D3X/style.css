@@ -942,6 +942,7 @@ a.hometblink:hover {
     text-decoration: none;
     border-radius: 3px 3px 0 0;
     border-right: 1px solid #1a1c1f;
+    font-size: 13px !important;
 }
 #nav li:hover a{
     background-color:#3c424e;
@@ -952,7 +953,6 @@ a.hometblink:hover {
     background-image:-o-linear-gradient(top, #424957, #323842)!important;
     background-image: linear-gradient(top, #424957, #323842)!important;
     color:#fff !important;
-
 }
 
 #nav li ul li a {
@@ -984,6 +984,7 @@ a.hometblink:hover {
     border-radius: 3px 3px 0 0;
     text-decoration: none;
     border-right: 1px solid #767f8c;
+    font-size:13px !important;
 }
 #nav li.active a:hover {
 	cursor: pointer;
